@@ -1,0 +1,34 @@
+.card{
+  box-sizing: border-box;
+  width: 340px;
+  height: 274px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  h2{
+    font-family: Arial, sans-serif;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 32px;
+    text-transform: capitalize;
+  }
+  button{
+    background-color: #DB00FF;
+    width: 316px;
+    height: 42px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    color: white;
+  }
+}
